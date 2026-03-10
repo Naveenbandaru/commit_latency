@@ -3,7 +3,7 @@
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
-- **Published In:** nternational Journal of Innovative Research in Engineering & Multidisciplinary Physical Sciences (IJIRMPS)
+- **Published In:** IJSST Full form ****
 - **Publication Date:** Jan 6, 2023
 - **ISSN:** E-ISSN: 2582-8010
 - **DOI:**
