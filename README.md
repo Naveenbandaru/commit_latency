@@ -3,7 +3,7 @@
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
-- **Published In:** IJSST Full form ****
+- **Published In:** IJSAT Full form ****
 - **Publication Date:** Jan 6, 2023
 - **ISSN:** E-ISSN: 2582-8010
 - **DOI:**
