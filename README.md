@@ -1,5 +1,5 @@
 # commit_latency
-**Cross Node Telemetry for CPU Efficient Congestion Monitoring**
+**Transaction Batching for Low Latency Commit Processing in Distributed Systems**
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
