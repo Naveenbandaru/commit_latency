@@ -10,36 +10,33 @@
 - **Impact Factor:** 9.88
 
 ### Abstract
-This paper addresses the problem of excessive CPU utilization in network congestion monitoring within distributed and cloud infrastructures. Modern systems collect telemetry such as bandwidth usage, packet loss, queue occupancy, and delay statistics, yet conventional frameworks analyze these metrics independently at each node. This repetitive data collection and duplicate analysis create high computational overhead, frequent synchronization, and delayed identification of bottlenecks. As the number of nodes grows, telemetry streams expand proportionally, triggering repeated diagnostics and unnecessary reprocessing that further amplify processor load. Consequently, centralized aggregation and monitoring costs reduce throughput, limit scalability, and compromise service stability across distributed environments.
+Distributed transaction systems often experience high commit latency because each transaction is processed independently with repeated coordination and synchronization among nodes. This work examines the impact of immediate commit processing on latency as cluster size increases. A batching based commit approach is introduced where multiple transactions are processed collectively to reduce repeated coordination overhead. Experimental analysis across different cluster sizes shows that grouped commit processing significantly lowers commit latency and improves scalability in distributed environments.
 
-### Key Contributions
-- **Cross‑Node Telemetry Correlation:**  
-Introduced a monitoring approach that correlates telemetry across nodes, reducing redundant computation and improving CPU efficiency compared to conventional independent node analysis.
+### Core Technical Contributions
+- **Batch Based Commit Processing Approach:**  
+Introduced a commit method that groups multiple transactions into a single coordination cycle, reducing repeated commit operations and lowering synchronization overhead in distributed transaction systems.
 
-- **Processor‑Efficient Monitoring Design:**  
-Developed mechanisms that minimize duplicate diagnostics and synchronization overhead, lowering CPU utilization while maintaining visibility into congestion events across distributed systems.
+- **Reduced Coordination Overhead:**  
+Designed a commit model that minimizes repeated communication and synchronization between coordinator and participant nodes, improving efficiency during the commit phase of transactions.
 
-- **Simulation and Validation:** 
-Implemented a Go‑based simulation to model conventional monitoring overhead, validating how repeated local analysis and central aggregation lead to high processor load.
+- **Distributed Transaction Simulation Model:** 
+Implemented a distributed transaction processing environment using Go based concurrent workers to simulate coordinator participant communication and analyze commit behavior across multiple nodes.
 
-- **Scalability Enhancement:**  
-Demonstrated that coordinated telemetry analysis prevents linear growth of CPU consumption with cluster size, enabling scalable monitoring in cloud and distributed infrastructures.
+- **Scalability Analysis Across Cluster Sizes:**  
+Evaluated commit latency across clusters with 3, 5, 7, 9, and 11 nodes to study how batching influences scalability and transaction completion performance.
 
-### Relevance & Real-World Impact
-- **Reduced CPU Utilization:**
-Achieved significant processor efficiency by eliminating redundant monitoring tasks, freeing resources for application workloads and improving responsiveness.
+### Practical Significance and Impact
+- **Lower Commit Latency:**
+Batch based commit processing significantly decreases the time required to finalize transactions by reducing repeated coordination cycles that occur in conventional immediate commit protocols.
 
-- **Improved Latency and Throughput:**  
-Lower monitoring overhead directly reduces latency and increases throughput, enhancing service stability in distributed environments.
+- **Improved Transaction Processing Efficiency:**  
+Processing multiple transactions together reduces communication rounds and synchronization delays, enabling faster completion of distributed transactions and better utilization of system resources.
 
-- **Scalable Cloud Deployment:**  
-Framework supports large clusters without proportional CPU growth, addressing scalability challenges in modern cloud infrastructures.
+- **Better Scalability for Distributed Systems:**  
+Commit latency grows gradually with cluster expansion because fewer coordination rounds are required, enabling distributed systems to maintain stable transaction processing performance.
 
-- **Operational Cost and Energy Savings:**  
-Efficient monitoring reduces unnecessary computation, lowering energy consumption and operational costs in data centers.
-
-- **Practical Applicability:**
-Provides a reference model for industry and research, offering a processor‑efficient monitoring design suitable for production systems and academic exploration.
+- **Applicability to Distributed Platforms:**  
+The approach benefits distributed databases, cloud transaction systems, financial platforms, and microservice architectures that require efficient transaction completion and scalable commit processing.
  
 ### Experimental Results (Summary)
 
