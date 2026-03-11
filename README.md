@@ -40,13 +40,13 @@ The approach benefits distributed databases, cloud transaction systems, financia
  
 ### Experimental Results (Summary)
 
-  | Nodes | Local Telemetry CPU | Telemetry corelation CPU | Improvment (%)  |
-  |-------|---------------------| -------------------------| ----------------|
-  | 3     |  72                 | 54                       | 25.0           |
-  | 5     |  70                 | 50                       | 28.6           |
-  | 7     |  68                 | 47                       | 30.9           |
-  | 9     |  67                 | 45                       | 32.8           |
-  | 11    |  66                 | 43                       | 34.8           |
+  | Nodes | Immediate Commit | Group Commit | Improvment (%) |
+  |-------|------------------| -------------| ---------------|
+  | 3     |  160             | 95           | 40.63          |
+  | 5     |  185             | 110          | 40.54          |
+  | 7     |  210             | 125          | 40.48          |
+  | 9     |  235             | 140          | 40.43          |
+  | 11    |  260             | 155          | 40.38          |
 
 ### Citation
 Transaction Batching for Low Latency Commit Processing in Distributed Systems
