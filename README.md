@@ -3,8 +3,8 @@
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
-- **Published In:** IJSAT Full form ****
-- **Publication Date:** Jan 6, 2023
+- **Published In:** International Journal on Science and Technology (IJSAT)
+- **Publication Date:** July, 2021
 - **ISSN:** E-ISSN: 2582-8010
 - **DOI:**
 - **Impact Factor:** 9.56
