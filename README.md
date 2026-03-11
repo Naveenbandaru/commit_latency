@@ -5,9 +5,9 @@
 - **Author(s):** Naveen Kumar Bandaru
 - **Published In:** International Journal on Science and Technology (IJSAT)
 - **Publication Date:** July, 2021
-- **ISSN:** E-ISSN: 2582-8010
+- **ISSN:** E-ISSN: 2229-7677
 - **DOI:**
-- **Impact Factor:** 9.56
+- **Impact Factor:** 9.88
 
 ### Abstract
 This paper addresses the problem of excessive CPU utilization in network congestion monitoring within distributed and cloud infrastructures. Modern systems collect telemetry such as bandwidth usage, packet loss, queue occupancy, and delay statistics, yet conventional frameworks analyze these metrics independently at each node. This repetitive data collection and duplicate analysis create high computational overhead, frequent synchronization, and delayed identification of bottlenecks. As the number of nodes grows, telemetry streams expand proportionally, triggering repeated diagnostics and unnecessary reprocessing that further amplify processor load. Consequently, centralized aggregation and monitoring costs reduce throughput, limit scalability, and compromise service stability across distributed environments.
@@ -52,14 +52,14 @@ Provides a reference model for industry and research, offering a processor‑eff
   | 11    |  66                 | 43                       | 34.8           |
 
 ### Citation
-Cross Node Telemetry for CPU Efficient Congestion Monitoring
-* Arunkumar Sambandam
-* International Journal of Leading Research Publication 
-* *****ISSN E-ISSN: 2582-8010
+Transaction Batching for Low Latency Commit Processing in Distributed Systems
+* Naveen Kumar Bandaru
+* International Journal on Science and Technology (IJSAT) 
+* *****ISSN E-ISSN: 2229-7677
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
-[**************https://www.ijlrp.com/](https://www.ijirmps.org/research-paper.php?id=232943) \
+https://www.ijsat.org \
 **Author Contact** \
 **LinkedIn**: linkedin.com/in/arunkumar-sambandam-9b769b | **Email**: arunkumar.sambandam@yahoo.com
 
