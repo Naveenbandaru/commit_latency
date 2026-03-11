@@ -1,5 +1,5 @@
 # commit_latency
-**Transaction Batching for Low Latency Commit Processing in Distributed Systems**
+**Transaction Batching for Low Latency Commit Processing in Distributed Systems** -----**Completed**
 
 ### Paper Information
 - **Author(s):** Naveen Kumar Bandaru
