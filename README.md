@@ -61,7 +61,7 @@ This research is shared for a academic and research purposes. For commercial use
 **Resources** \
 https://www.ijsat.org \
 **Author Contact** \
-**LinkedIn**: linkedin.com/in/arunkumar-sambandam-9b769b | **Email**: arunkumar.sambandam@yahoo.com
+**LinkedIn**: linkedin.com/in/naveen-bandaru | **Email**: arunkumar.sambandam@yahoo.com
 
 
 
