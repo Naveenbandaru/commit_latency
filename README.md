@@ -55,7 +55,7 @@ Provides a reference model for industry and research, offering a processor‑eff
 Transaction Batching for Low Latency Commit Processing in Distributed Systems
 * Naveen Kumar Bandaru
 * International Journal on Science and Technology (IJSAT) 
-* *****ISSN E-ISSN: 2229-7677
+* ISSN E-ISSN: 2229-7677
 * License \
 This research is shared for a academic and research purposes. For commercial use, please contact the author.\
 **Resources** \
